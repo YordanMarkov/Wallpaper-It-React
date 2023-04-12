@@ -1,0 +1,53 @@
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  .md\:grid-cols-4 {
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+
+  .found {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .found span {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+
+  select {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+  }
+ 
+  .line {
+    border-bottom: 0.2rem solid var(--primary-color);
+  }
+
+  .position-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  
