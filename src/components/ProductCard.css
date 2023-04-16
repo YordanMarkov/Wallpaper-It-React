@@ -60,4 +60,24 @@
     border: none;
     background-color: transparent;
   }
+
+  .stars {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .stars svg {
+    fill: #FFA500;
+  }
+  
+  .stars .rating {
+    margin-left: 5px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .stars .empty-star {
+    fill: #9CA3AF;
+  }
   
